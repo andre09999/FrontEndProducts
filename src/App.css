@@ -28,6 +28,40 @@
   height: 250px;
   width: 350px;
 }
+.fomulario_profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  background-color: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  height: 300px;
+  width: 350px;
+}
+.conteiner_but_profile{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.fomulario_product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  background-color: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  height: 350px;
+  width: 350px;
+}
 .fomulario_login:hover{
   background-color: brown;
   border-radius: 10px;
@@ -43,22 +77,41 @@
 .buton_login{
   color: black;
   border-color: transparent;
-  width: 90px;
   background-color: azure;
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
+  width: 90px;
+  height: 30px;
+}
+
+.buton_login_back{
+  color: black;
+  border-color: transparent;
+  background-color: azure;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  width: 90px;
+  height: 25px;
+}
+
+.iconBut{
+  display: flex;
+  gap: 20px;
 }
 
 .buton_login_cadastro{
   color: rgb(250, 250, 250);
   border-color: transparent;
-  width: 110px;
+  width: 250px;
+  height: 40px;
   background-color: rgba(255, 255, 255, 0.459);
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
+  line-height: 35px;
 }
 .buton_login:hover{
   border-color: rgb(7, 123, 255);
@@ -70,7 +123,7 @@
 .buton_login_cadastro:hover{
   border-color: rgb(7, 123, 255);
   background-color: none;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
   border-radius: 10px;
   box-shadow: 0px 0px 12px 0px  rgba(46, 140, 247, 0.993);
 }
@@ -102,6 +155,7 @@ label{
   font-size: larger;
   border-radius: 5px;
   text-align: center;
+
 }
 
 .title{
@@ -158,9 +212,9 @@ color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
   gap: 50px;
   height: 86vh;
+  padding-top: 50px;
 }
 .products_input {
   font-size: larger;
@@ -174,6 +228,7 @@ color: white;
   background-color: black;
   align-items: center;
   justify-content: center;
+  padding-top: 30px;
 }
 
 .exit{
@@ -232,6 +287,6 @@ color: white;
 
 .button_card:hover{
   border: 1px 1px solid black;
-  background-color: rgba(71, 14, 14, 0.541);
-  border-radius: 10px;
+  background-color: #08064E;
+  border-radius: 5px;
 }

@@ -56,12 +56,15 @@ const Produtos = ({value, value1, value2}) => {
       {
         dataFilter.map((a, i) => (
           <div key={i} className='card'>
-            <button onClick={() => edit(a)} className='button_card'> <HiOutlinePencilSquare color='white' size='2em' />  </button>
-            <button onClick={()=> delet(a)} className='button_card'> <MdDeleteForever  color='white' size='2em'/>  </button>
+            <div className='iconBut'>
+            <button title='Editar' onClick={() => edit(a)} className='button_card'><HiOutlinePencilSquare color='white' size='2em' /></button>
+            <button  title='Excluir' onClick={()=> delet(a)} className='button_card'> <MdDeleteForever  color='white' size='2em'/></button>
+            </div>
             <p>Nome: {a.name}</p>
             <p>Marca: {a.brand}</p>
             <p>Modelo: {a.model}</p>
-            <p>Preço: { a.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</p>
+            <p>Modelo: {a.color}</p>
+            <p>Preço: { parseFloat(a.price).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</p>
           </div>
         ))
         }

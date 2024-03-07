@@ -19,12 +19,15 @@ const Products = () => {
   return (
     <div>
       <Header />
+      <div  className='container_products_input'>
+      <input className='products_input' type='text' onChange={(a) => setEnter(a.target.value)} placeholder='Filtrar pelo Nome' />
+      <input className='products_input' type='text' onChange={(a) => setBrand(a.target.value)} placeholder='Filtrar pela Marca' />
+      <input className='products_input' type='text'  onChange={(a) => setModel(a.target.value)} placeholder='Filtrar pelo Modelo'/>
+      </div>
       <div className='container_products_input'>
-      <input className='products_input' type='text' onChange={(a) => setEnter(a.target.value)} placeholder='Digite para Filtrar pelo nome' />
-      <input className='products_input' type='text' onChange={(a) => setBrand(a.target.value)} placeholder='Digite para Filtrar pela marca' />
-      <input className='products_input' type='text'  onChange={(a) => setModel(a.target.value)} placeholder='Digite para Filtrar pelo modelo'/>
       <Link to="/registerProduct" className="buton_login_cadastro">Cadastrar novo produto</Link>
       </div>
+
       
     <div className='container_Producs'>
       <div>

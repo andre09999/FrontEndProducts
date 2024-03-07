@@ -67,7 +67,7 @@ const CreateProduct = () => {
   return (
 
     <div className='container_login'>
-      <form onSubmit={handleSubmit} className='fomulario_login'>
+      <form onSubmit={handleSubmit} className='fomulario_product'>
         <h3 className='title'>Crie seu Produtro</h3>
         <div className='container_input'>
 
