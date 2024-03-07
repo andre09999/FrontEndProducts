@@ -1,0 +1,92 @@
+.container_login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+  background-image: url('./images/loginFoto.jpeg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.fomulario_login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  background-color: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  height: 250px;
+  width: 350px;
+}
+.fomulario_login:hover{
+  background-color: brown;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.466); 
+  backdrop-filter: blur(10px); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 250px;
+  width: 350px;
+}
+
+.buton_login{
+  border-color: transparent;
+  width: 90px;
+  background-color: azure;
+  border-radius: 5px;
+  text-decoration: dotted;
+}
+
+.buton_login:hover{
+  border-color: rgb(7, 123, 255);
+  background-color: none;
+  transition: 1s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 0px  rgba(0, 119, 255, 0.993);
+}
+.container_input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.position{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+label{
+ display: none;
+}
+
+.position > input{
+  font-size: larger;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container_login > button{
+  font-size: larger;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.title{
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.advertencia{
+  color: red;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
