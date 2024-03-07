@@ -17,8 +17,8 @@ const Products = () => {
   }, [history]); 
 
   return (
-    <div>
-      <Header />
+    <div className='background_prouct'>
+      <Header/>
       <div  className='container_products_input'>
       <input className='products_input' type='text' onChange={(a) => setEnter(a.target.value)} placeholder='Filtrar pelo Nome' />
       <input className='products_input' type='text' onChange={(a) => setBrand(a.target.value)} placeholder='Filtrar pela Marca' />

@@ -15,15 +15,15 @@ const Header = () => {
  }
   return (
     <header>
-      <h1>StoreCell</h1>
+      <h1 className='tittle_header'>TechCell</h1>
       
-      <button onClick={() => sair()} className="exit">
-        <label>Exit</label>
-        <FaDoorOpen />
-      </button>
       <button onClick={() => profile()} className="profile">
         <label>Profile</label>
         <CgProfile /> 
+      </button>
+      <button onClick={() => sair()} className="exit">
+        <label>Exit</label>
+        <FaDoorOpen />
       </button>
   </header>
 )

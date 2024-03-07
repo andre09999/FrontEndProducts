@@ -47,7 +47,7 @@ const Login = () => {
 
     <div className='container_login'>
       <form onSubmit={handleSubmit} className='fomulario_login'>
-      <h1 className='title'>StoreCell</h1>
+      <h1 className='title'>TechCell</h1>
         <div className='container_input'>
 
       <div className='position'>
