@@ -4,7 +4,7 @@ import Products from './pages/Products.js'
 import Register from './pages/createlogin.js'
 import RegisterProduct from './pages/createProduct.js'
 import EditProduct from './pages/editProduct';
-
+import Profile from './pages/profile.js';
 import './App.css'
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
       <Route path="/product" element={<Products />} />
       <Route path="/register" element={<Register />} />
       <Route path="/registerProduct" element={<RegisterProduct />} />
-      <Route path="/editproduct" element={ <EditProduct /> } />
+      <Route path="/editproduct" element={<EditProduct />} />
+      <Route path="/profile" element={ <Profile /> } />
     </Routes>
   )
 }
