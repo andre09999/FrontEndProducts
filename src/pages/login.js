@@ -74,7 +74,7 @@ const Login = () => {
       </div>
         </div>
         <button className='buton_login' type="submit">Login</button>
-        <Link to="/register">Registrar</Link>
+        <Link to="/register" className="buton_login">Registrar</Link>
         <p className='advertencia'>{ status.message }</p>
      </form>
      </div>

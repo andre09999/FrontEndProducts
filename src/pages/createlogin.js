@@ -77,7 +77,7 @@ const CreateLogin = () => {
         <div>
         <button className='buton_login' type="submit">Registrar</button>
         </div>
-        <Link to="/">Voltar</Link>
+        <Link to="/"  className="buton_login">Voltar</Link>
         <ToastContainer />
      </form>
      </div>
